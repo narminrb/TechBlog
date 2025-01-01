@@ -1,0 +1,166 @@
+{
+  "imagedata":[
+    {
+      "id": "1",
+      "name": "Leadership",
+      "desc": "Beauty of deep space. Billions of galaxies in the universe.",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-09.webp?imwidth=640"
+    }
+  ],
+  "videodata":[
+    {
+      "id": "90",
+      "name": "SEO",
+      "desc": "A five-step framework for effective keyword targeting",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-08.webp?imwidth=640"
+    }
+  ],
+  "data": [
+    {
+      "id": "2",
+      "name": "Leadership",
+      "desc": "Rocket Lab mission fails shortly after launch",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-02.webp?imwidth=384"
+    },
+    {
+      "id": "3",
+      "name": "Technology",
+      "desc": "Virtual Reality or Artificial Intelligence Technology",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-03.webp?imwidth=384"
+    },
+    {
+      "id": "4",
+      "name": "Technology",
+      "desc": "Security isn’t just a technology problem it’s about design, too",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-dark-01.webp?imwidth=384"
+    },
+    {
+      "id": "5",
+      "name": "Technology",
+      "desc": "Flutter: the good, the bad and the ugly",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-10.webp?imwidth=384"
+    }
+  ],
+  "gadgetimage":[
+    {
+      "id": "1",
+      "name": "Gadget",
+      "desc": "iPhone SE is discontinued, but these retailers are still selling it",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-06.webp?imwidth=750"
+    }
+  ],
+  "gadget": [
+    {
+      "id": "88",
+      "name": "Gadget",
+      "desc": "OnePlus Nord hands-on Strong features at a tempting price",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tech-07.webp?imwidth=128"
+    },
+    {
+      "id": "99",
+      "name": "Gadget",
+      "desc": "One of the most portable drones in the market.",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-test-tech-04.webp?imwidth=128"
+    },
+    {
+      "id": "111",
+      "name": "Technology",
+      "desc": "Air Pods Pro with Wireless Charging Case.",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-05.webp?imwidth=128"
+    },
+    {
+      "id": "112",
+      "name": "Technology",
+      "desc": "Get Ready To Up Your Creative Game With The New DJI Mavic",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-grid-01.webp?imwidth=128"
+    }
+  ],
+  "storypagination":[
+    {
+      "id": "1111",
+      "name": "Gadget"
+    },
+    {
+      "id": "2111",
+      "name": "Technology"
+    },
+    {
+      "id": "3111",
+      "name": "Design"
+    },
+    {
+      "id": "1111",
+      "name": "Products"
+    }
+  ],
+  "topics": [
+    {
+      "id": "22",
+      "name": "Design",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/design.webp?imwidth=256"
+    },
+    {
+      "id": "33",
+      "name": "Leadership",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/leaderhip.webp?imwidth=256"
+    },
+    {
+      "id": "44",
+      "name": "Gadget",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/gadget.webp?imwidth=256"
+    },
+    {
+      "id": "55",
+      "name": "Products",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/product.webp?imwidth=256"
+    },
+    {
+      "id": "66",
+      "name": "Technology",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/technology.webp?imwidth=256"
+    },
+    {
+      "id": "77",
+      "name": "Branding",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/branding.webp?imwidth=256"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "name": "News blog today",
+      "desc": "News and latest updates",
+      "image": "https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "2",
+      "name": "News blog today",
+      "desc": "News and latest updates",
+      "image": "https://images.pexels.com/photos/2248503/pexels-photo-2248503.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "3",
+      "name": "News blog today",
+      "desc": "News and latest updates",
+      "image": "https://images.pexels.com/photos/2258357/pexels-photo-2258357.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "4",
+      "name": "News blog today",
+      "desc": "News and latest updates",
+      "image": "https://images.pexels.com/photos/3095621/pexels-photo-3095621.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "5",
+      "name": "News blog today",
+      "desc": "News and latest updates",
+      "image": "https://images.pexels.com/photos/2146358/pexels-photo-2146358.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "6",
+      "name": "News blog today",
+      "desc": "News and latest updates",
+      "image": "https://images.pexels.com/photos/3278364/pexels-photo-3278364.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}
