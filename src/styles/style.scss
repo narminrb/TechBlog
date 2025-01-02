@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .top{
   background-color: #f0f2f5;
 }
@@ -15,4 +14,10 @@
   max-width: 1260px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.gray{
+  background-color: #fbfbfd;
+  padding: 20px;
+  border-radius: 10px;
 }

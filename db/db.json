@@ -41,12 +41,105 @@
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-10.webp?imwidth=384"
     }
   ],
+
+  "leadershipdata": [
+    {
+      "id": "37",
+      "name": "Leadership",
+      "desc": "Beauty of deep space. Billions of galaxies in the universe.",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-09.webp?imwidth=640"
+    },
+    {
+      "id": "35",
+      "name": "Leadership",
+      "desc": "Rocket Lab mission fails shortly after launch",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-02.webp?imwidth=384"
+    },
+    {
+      "id": "36",
+      "name": "Technology",
+      "desc": "Virtual Reality or Artificial Intelligence Technology",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-03.webp?imwidth=384"
+    },
+    {
+      "id": "34",
+      "name": "Technology",
+      "desc": "Security isn’t just a technology problem it’s about design, too",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-dark-01.webp?imwidth=384"
+    },
+    {
+      "id": "56",
+      "name": "Technology",
+      "desc": "Flutter: the good, the bad and the ugly",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-10.webp?imwidth=384"
+    }
+  ],
+  "populardata": [
+    {
+      "id": "39",
+      "name": "Leadership",
+      "desc": "Beauty of deep space. Billions of galaxies in the universe.",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-09.webp?imwidth=640"
+    },
+    {
+      "id": "41",
+      "name": "Leadership",
+      "desc": "Rocket Lab mission fails shortly after launch",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-02.webp?imwidth=384"
+    },
+    {
+      "id": "42",
+      "name": "Technology",
+      "desc": "Virtual Reality or Artificial Intelligence Technology",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-03.webp?imwidth=384"
+    }
+  ],
+  "instagramdata": [
+    {
+      "id": "79",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-01.webp?imwidth=256"
+    },
+    {
+      "id": "77",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-02.webp?imwidth=256"
+    },
+    {
+      "id": "76",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-03.webp?imwidth=256"
+    },
+    {
+      "id": "75",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-04.webp?imwidth=256"
+    },
+    {
+      "id": "74",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-05.webp?imwidth=256"
+    },
+    {
+      "id": "73",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-06.webp?imwidth=256"
+    }
+  ],
   "gadgetimage":[
     {
       "id": "1",
       "name": "Gadget",
       "desc": "iPhone SE is discontinued, but these retailers are still selling it",
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-06.webp?imwidth=750"
+    }
+  ],
+  "designdata":[
+    {
+      "id": "555",
+      "name": "Design",
+      "desc": "4 types of research methods all designers should know",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-01.webp?imwidth=640"
+    },
+    {
+      "id": "666",
+      "name": "Design",
+      "desc": "iPadOS 14 introduces new designed specifically for iPad",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-03.webp?imwidth=640"
     }
   ],
   "gadget": [
@@ -91,6 +184,24 @@
     {
       "id": "1111",
       "name": "Products"
+    }
+  ],
+  "reviewpagination":[
+    {
+      "id": "1112",
+      "name": "Design"
+    },
+    {
+      "id": "2113",
+      "name": "Branding"
+    },
+    {
+      "id": "3114",
+      "name": "seo"
+    },
+    {
+      "id": "1115",
+      "name": "Research"
     }
   ],
   "topics": [

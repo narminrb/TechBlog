@@ -15,7 +15,7 @@ const CustomImage = ({ image, name, desc, url }) => {
 
       <div className="relative z-10 p-8">
         <h3 className="text-[16px] text-white">{name}</h3>
-        <div className="mt-1 text-[32px] font-bold text-sm leading-8 text-white">{desc}</div>
+        <div className="mt-1 text-[30px] font-bold leading-8 text-white">{desc}</div>
       </div>
     </article>
   );
