@@ -7,6 +7,45 @@
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-09.webp?imwidth=640"
     }
   ],
+  "smallcarddata":[
+    {
+      "id": "168",
+      "name": "Design",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/design.webp?imwidth=64"
+    },
+    {
+      "id": "167",
+      "name": "Leadership",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/leaderhip.webp?imwidth=64"
+    },
+    {
+      "id": "169",
+      "name": "Gadget",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/gadget.webp?imwidth=64"
+    },
+    {
+      "id": "179",
+      "name": "Products",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/category/product.webp?imwidth=64"
+    }
+  ],
+  "featureddata":[
+    {
+      "id": "168",
+      "desc": "A five-step framework for effective keyword targeting",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-08.webp?imwidth=384"
+    },
+    {
+      "id": "167",
+      "desc": "The underrated design book that transformed the",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/post-single/post-single-01.webp?imwidth=384"
+    },
+    {
+      "id": "169",
+      "desc": "Security isn’t just a technology problem it’s about design, too",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-dark-01.webp?imwidth=384"
+    }
+  ],
   "videodata":[
     {
       "id": "90",
@@ -47,31 +86,66 @@
       "id": "37",
       "name": "Leadership",
       "desc": "Beauty of deep space. Billions of galaxies in the universe.",
+      "author":"Ismat Jahan",
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-09.webp?imwidth=640"
     },
     {
       "id": "35",
       "name": "Leadership",
       "desc": "Rocket Lab mission fails shortly after launch",
+      "author":"Rahabi Khan",
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-02.webp?imwidth=384"
     },
     {
       "id": "36",
       "name": "Technology",
       "desc": "Virtual Reality or Artificial Intelligence Technology",
+      "author":"Ismat Jahan",
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tect-03.webp?imwidth=384"
     },
     {
       "id": "34",
       "name": "Technology",
       "desc": "Security isn’t just a technology problem it’s about design, too",
+      "author":"Jone Doe",
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-dark-01.webp?imwidth=384"
     },
     {
       "id": "56",
       "name": "Technology",
       "desc": "Flutter: the good, the bad and the ugly",
+      "author":"Ismat Jahan",
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-10.webp?imwidth=384"
+    }
+  ],
+  "leadership2data": [
+    {
+      "id": "101",
+      "name": "Leadership",
+      "desc": "How to personalize your Google Chrome homepage with GIF",
+      "author":"Rose Mary",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-tech-10.webp?imwidth=384"
+    },
+    {
+      "id": "102",
+      "name": "Design",
+      "desc": "These 5 tips will help you nail your next design presentation",
+      "author":"Rahabi Khan",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-02.webp?imwidth=384"
+    },
+    {
+      "id": "103",
+      "name": "Design",
+      "desc": "The underrated design book that transformed the",
+      "author":"Fatima Jane",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/post-single/post-single-01.webp?imwidth=384"
+    },
+    {
+      "id": "104",
+      "name": "Design",
+      "desc": "New: Freehand Templates, built for the whole team",
+      "author":"Jone Doe",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-list-04.webp?imwidth=384"
     }
   ],
   "populardata": [

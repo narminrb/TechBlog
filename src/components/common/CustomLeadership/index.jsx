@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const CustomLeadership = ({ image, name, desc, url }) => {
+const CustomLeadership = ({ image, name, desc, url,author }) => {
   return (
     <div className="w-full  overflow-hidden  mb-5">
     <div className="md:flex">
@@ -29,8 +29,34 @@ const CustomLeadership = ({ image, name, desc, url }) => {
             <div style={{color:'#d93e40',fontSize:'13px'}} className=" mb-4 uppercase text-[14px] tracking-wide text-indigo-500 font-semibold">{name}</div>
             <Link to="#" class="block mt-1 text-[24px] leading-tight font-bold text-black hover:underline">{desc}
             </Link>
-            <p className="mt-[46px] text-slate-500">Looking to take your team away on a 
-            </p>
+            <h2 className='mt-[43px] font-semibold'>{author}</h2>
+            <div class="flex items-center justify-between">
+  <p class="mt-[3px] text-slate-500 text-[13px]">Jul 23 2022 2 min read</p>
+  <ul class="flex space-x-2 social-share-transparent text-slate-500">
+    <li>
+      <a href="https://facebook.com/">
+        <i class="ri-facebook-fill"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com">
+        <i class="ri-twitter-fill"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://instagram.com">
+        <i class="ri-instagram-fill"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://linkedin.com">
+        <i class="ri-linkedin-fill"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
         </div>
     </div>
 </div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CustomCard = ({ image, name, desc, url }) => {
   return (
-    <div style={{ minWidth: '285px', maxHeight: '294px', overflow: 'hidden', position: 'relative', marginBottom: '20px'}}>
+    <div style={{ minWidth: '285px', maxHeight: '294px', overflow: 'hidden', position: 'relative', marginBottom: '0px'}}>
       <Link
         className="max-w-lg overflow-hidden  rounded-2xl   flex flex-col"
         to={url}
@@ -23,7 +23,7 @@ const CustomCard = ({ image, name, desc, url }) => {
         </div>
        <div style={{ padding: '1rem 0' }}>
   <h4 style={{ fontSize: '1rem',color:'#d93e40' }}>{name}</h4>
-  <p
+  <p className='leading-3'
     style={{
       fontWeight: 'bold',
       marginTop: '0.5rem',
@@ -38,11 +38,12 @@ const CustomCard = ({ image, name, desc, url }) => {
       backgroundRepeat: 'no-repeat',
       color: 'inherit',
       fontSize: '1.2rem',
+      width:'150px'
     }}
   >
     {desc}
   </p>
-  <div style={{ marginTop: '1.25rem' }}></div>
+  <div style={{ marginTop: '1.2rem' }}></div>
 </div>
 
       </Link>

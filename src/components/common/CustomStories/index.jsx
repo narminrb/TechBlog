@@ -2,18 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CustomCard = ({ image, name, desc, url }) => {
-  return (  
-    <div class="max-w-2xl mx-auto mt-7">
-    <div class="flex gap-3 bg-white overflow-hidden items-center justify-start">
-        <div class="relative w-[100px] h-[100px] rounded-xl overflow-hidden">
-            <img class="absolute object-center h-full w-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" src={image}/>
+  return (
+    <div className="max-w-2xl mx-auto mt-7 px-4 sm:px-0">
+      <div className="flex gap-3 bg-white overflow-hidden items-center justify-start flex-wrap">
+        <div className="relative w-[100px] h-[100px] rounded-xl overflow-hidden">
+          <img
+            className="absolute object-center h-full w-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+            loading="lazy"
+            src={image}
+          />
         </div>
 
-        <div class="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 w-full sm:w-auto">
+          <p style={{ fontSize: '1rem', color: '#d93e40' }}>{name}</p>
 
-            <p  style={{ fontSize: '1rem',color:'#d93e40' }}>{name}</p>
-
-            <p class="text-black w-[370px] text-[24px] leading-tight text-bold"
+          <p
+            className="text-black w-full sm:w-[370px] text-[24px] leading-tight text-bold"
             style={{
               fontWeight: 'bold',
               marginTop: '0.5rem',
@@ -28,17 +32,15 @@ const CustomCard = ({ image, name, desc, url }) => {
               backgroundRepeat: 'no-repeat',
               color: 'inherit',
               fontSize: '1.5rem',
-              lineHeight:'1.2'
+              lineHeight: '1.2',
             }}
-            >
-                {desc}
-            </p>
-
+          >
+            {desc}
+          </p>
         </div>
-
+      </div>
+      <div className="border-b border-[#ced0d4] mt-7"></div>
     </div>
-    <div className="border-b border-[#ced0d4] mt-7"></div>
-</div>
   );
 };
 
