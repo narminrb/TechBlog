@@ -15,6 +15,7 @@ import CustomDesign from '../../components/common/CustomDesign';
 import { Link } from 'react-router-dom';
 import CustomSmallCard from '../../components/common/CustomSmallCard';
 import CustomFeatured from '../../components/common/CustomFeatured';
+import CustomLast from '../../components/common/CustomLast';
 const HomePage = () => {
   const { data: dataCards, loading: loadingData, error: errorData } = ApiDataHook('/data');
   const { data: imageCards, loading: loadingImages, error: errorImages } = ApiDataHook('/imagedata');
@@ -31,6 +32,7 @@ const HomePage = () => {
   const { data: designData } = ApiDataHook('/designdata');
   const { data: smallCardData } = ApiDataHook('/smallcarddata');
   const { data: featuredData } = ApiDataHook('/featureddata');
+  const { data: lastData } = ApiDataHook('/lastdata');
   if (loadingData || loadingImages || loadingTopics || loadingStories || loadingGadget || loadingPagination) {
     return <CustomLoading />;
   }
@@ -461,18 +463,37 @@ const HomePage = () => {
 
     </div>
   </div>
-  <div className="grid grid-cols-6 gap-8 mt-10 mb-8" style={{ minHeight: '180px' }}>
-    {topicCards &&
-            topicCards.map((card) => (
-              <CustomTopics
-                key={card.id}
-                image={card.img}
-                name={card.name}
-                desc={card.desc}
-                url={`/topics/${card.id}`} 
-              />
-            ))}
-    </div>
+  <div
+  style={{
+    textAlign: 'start',
+  }}
+>
+  <h5
+    style={{
+      lineHeight: '1.25',
+      fontSize: '34px',
+      fontWeight:'700',
+      marginTop:'40px'
+    }}
+  >
+    Instagram
+  </h5>
+</div>
+<div
+  className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 mt-6 mb-8"
+  style={{ minHeight: '180px' }}
+>
+  {lastData &&
+    lastData.map((card) => (
+      <CustomLast
+        key={card.id}
+        image={card.img}
+        name={card.name}
+        url={`/lastdata/${card.id}`}
+      />
+    ))}
+</div>
+
   </div>
 </div>
 

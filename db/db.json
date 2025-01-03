@@ -46,6 +46,38 @@
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/post-dark-01.webp?imwidth=384"
     }
   ],
+  "lastdata":[
+    {
+      "id": "298",
+      "name": "activity",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-01.webp?imwidth=256"
+    },
+    {
+      "id": "287",
+      "name": "drink",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-02.webp?imwidth=256"
+    },
+    {
+      "id": "289",
+      "name": "work",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-03.webp?imwidth=256"
+    },
+    {
+      "id": "398",
+      "name": "girl",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-04.webp?imwidth=256"
+    },
+    {
+      "id": "387",
+      "name": "fruit",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-05.webp?imwidth=256"
+    },
+    {
+      "id": "389",
+      "name": "car",
+      "img": "https://new.axilthemes.com/demo/react/blogar/images/small-images/instagram-md-06.webp?imwidth=256"
+    }
+  ],
   "videodata":[
     {
       "id": "90",
@@ -54,6 +86,8 @@
       "img": "https://new.axilthemes.com/demo/react/blogar/images/posts/thumbnail-08.webp?imwidth=640"
     }
   ],
+  
+  
   "data": [
     {
       "id": "2",
